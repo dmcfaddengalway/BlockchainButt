@@ -1,6 +1,6 @@
 {
   "name": "Blockchain Butt",
-  "manifest_version": 1,
+  "manifest_version": 3,
   "version": "1.0.0",
   "description": "Replaces the blockchain buzzword with buttcrack.",
   "icons": {
@@ -8,6 +8,9 @@
     "48": "icons/block-butt-48.png",
     "128": "icons/block-butt-128.png"
   },
+  "permissions": [
+    "activeTab"
+  ],
   "content_scripts": [
     {
       "matches": [
